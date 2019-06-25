@@ -1,0 +1,11 @@
+
+  <!--begin news sources-->
+  <div class="news_source_wrapper"> 
+    <h2>News Sources</h2>   
+    <mat-list role="list" class="container">      
+        <mat-spinner *ngIf="loadspinner"></mat-spinner>
+        <mat-list-item *ngFor="let source of sources" [routerLink]="['/news',source.id]" role="listitem">{{source.name}}</mat-list-item>     
+    </mat-list>
+  </div>
+  <!--over-->
+

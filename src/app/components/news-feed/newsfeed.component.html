@@ -1,0 +1,14 @@
+<div class="newsfeed_wrapper">
+  <h2>News Details</h2>   
+
+  <div *ngFor="let news of newsFeed">
+    <div class="tdua_section">    
+          <h3>{{news.title}}</h3>
+          <p>{{news.description}}</p>
+          <a>{{news.url}}</a>
+          <p>{{news.author}}</p>     
+    </div>
+  </div>
+
+
+</div>

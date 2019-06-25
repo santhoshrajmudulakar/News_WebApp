@@ -1,0 +1,11 @@
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #34a8ec;
+    color: #fff;
+}
+.header h3{
+    cursor: pointer;
+}

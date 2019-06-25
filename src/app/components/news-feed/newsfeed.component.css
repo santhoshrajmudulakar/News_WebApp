@@ -1,0 +1,15 @@
+.newsfeed_wrapper{
+    padding-top: 60px;
+}
+.tdua_section{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid 1px #eee;
+}
+.tdua_section p{
+    text-align: justify;
+}
+.tdua_section p:last-child{
+    font-size: 14px;
+    color: red;
+}
