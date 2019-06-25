@@ -1,5 +1,6 @@
 <div class="newsfeed_wrapper">
   <h2>News Details</h2>   
+  <mat-spinner *ngIf="loadspinner"></mat-spinner>
 
   <div *ngFor="let news of newsFeed">
     <div class="tdua_section">    
